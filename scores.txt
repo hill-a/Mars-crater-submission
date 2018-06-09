@@ -1,0 +1,163 @@
+Testing Mars craters detection and classification
+Reading train and test files from ./data ...
+Reading cv ...
+Training ./submissions/starting_kit ...
+CV fold 0
+-Train F1 : 0.480|0.609|0.526 	 precision : 0.602|0.743|0.608 	 recall : 0.469|0.586|0.511 	 loss : 0.0191 	[==============================]
+Finished epoch 1
+Time spent : 600.0759
+Train F1 : 0.52
+-Train F1 : 0.597|0.631|0.375 	 precision : 0.699|0.768|0.492 	 recall : 0.580|0.601|0.367 	 loss : 0.0214 	[==============================]
+Finished epoch 2
+Time spent : 604.7880
+Train F1 : 0.63
+-Train F1 : 0.624|0.658|0.481 	 precision : 0.716|0.756|0.591 	 recall : 0.605|0.631|0.480 	 loss : 0.0207 	[==============================]
+Finished epoch 3
+Time spent : 606.3019
+Train F1 : 0.65
+-Train F1 : 0.657|0.720|0.498 	 precision : 0.740|0.808|0.551 	 recall : 0.638|0.693|0.494 	 loss : 0.0184 	[==============================]
+Finished epoch 4
+Time spent : 608.3846
+Train F1 : 0.68
+-Train F1 : 0.676|0.724|0.455 	 precision : 0.749|0.803|0.600 	 recall : 0.657|0.694|0.447 	 loss : 0.0161 	[==============================]
+Finished epoch 5
+Time spent : 609.7534
+Train F1 : 0.69
+-Train F1 : 0.693|0.745|0.523 	 precision : 0.760|0.824|0.606 	 recall : 0.674|0.716|0.540 	 loss : 0.0160 	[==============================]
+Finished epoch 6
+Time spent : 610.4126
+Train F1 : 0.71
+-Train F1 : 0.707|0.731|0.541 	 precision : 0.766|0.800|0.600 	 recall : 0.689|0.702|0.554 	 loss : 0.0179 	[==============================]
+Finished epoch 7
+Time spent : 609.8609
+Train F1 : 0.72
+-Train F1 : 0.725|0.752|0.586 	 precision : 0.781|0.817|0.697 	 recall : 0.706|0.726|0.586 	 loss : 0.0163 	[==============================]
+Finished epoch 8
+Time spent : 610.3673
+Train F1 : 0.74
+-Train F1 : 0.740|0.782|0.583 	 precision : 0.792|0.840|0.648 	 recall : 0.724|0.761|0.582 	 loss : 0.0170 	[==============================]
+Finished epoch 9
+Time spent : 610.9539
+Train F1 : 0.75
+-Train F1 : 0.755|0.814|0.619 	 precision : 0.801|0.873|0.696 	 recall : 0.739|0.788|0.632 	 loss : 0.0179 	[==============================]
+Finished epoch 10
+Time spent : 611.2779
+Train F1 : 0.76
+	[==============================]
+	[==============================]
+Couldn't re-order the score matrix..
+	score     ap   madc   madr   ospa  prec(0)  prec(0.5)  prec(0.9)  rec(0)  rec(0.5)  rec(0.9)    scp
+	test   0.495  0.318  0.142  0.397    0.892      0.842      0.476   0.592     0.558     0.315  0.514
+	train  0.735  0.338  0.124  0.257    0.961      0.950      0.620   0.741     0.731     0.476  0.411
+	valid  0.587  0.286  0.087  0.312    0.962      0.950      0.741   0.607     0.600     0.467  0.451
+CV fold 1
+-Train F1 : 0.451|0.516|0.453 	 precision : 0.581|0.599|0.492 	 recall : 0.437|0.507|0.491 	 loss : 0.0023 	[==============================]
+Finished epoch 1
+Time spent : 590.4842
+Train F1 : 0.49
+-Train F1 : 0.603|0.602|0.720 	 precision : 0.701|0.657|0.735 	 recall : 0.589|0.592|0.710 	 loss : 0.0024 	[==============================]
+Finished epoch 2
+Time spent : 597.3718
+Train F1 : 0.63
+-Train F1 : 0.658|0.697|0.810 	 precision : 0.742|0.763|0.839 	 recall : 0.643|0.691|0.791 	 loss : 0.0022 	[==============================]
+Finished epoch 3
+Time spent : 599.8665
+Train F1 : 0.68
+-Train F1 : 0.679|0.722|0.825 	 precision : 0.752|0.753|0.843 	 recall : 0.665|0.727|0.811 	 loss : 0.0018 	[==============================]
+Finished epoch 4
+Time spent : 600.5814
+Train F1 : 0.70
+-Train F1 : 0.693|0.714|0.796 	 precision : 0.761|0.770|0.847 	 recall : 0.679|0.711|0.773 	 loss : 0.0012 	[==============================]
+Finished epoch 5
+Time spent : 601.2841
+Train F1 : 0.71
+-Train F1 : 0.719|0.758|0.755 	 precision : 0.779|0.811|0.853 	 recall : 0.706|0.748|0.749 	 loss : 0.0011 	[==============================]
+Finished epoch 6
+Time spent : 602.6580
+Train F1 : 0.73
+-Train F1 : 0.735|0.795|0.750 	 precision : 0.790|0.842|0.828 	 recall : 0.722|0.795|0.764 	 loss : 0.0017 	[==============================]
+Finished epoch 7
+Time spent : 602.2288
+Train F1 : 0.75
+-Train F1 : 0.748|0.831|0.789 	 precision : 0.796|0.848|0.844 	 recall : 0.735|0.831|0.777 	 loss : 0.0009 	[==============================]
+Finished epoch 8
+Time spent : 602.9377
+Train F1 : 0.76
+-Train F1 : 0.762|0.814|0.797 	 precision : 0.807|0.842|0.853 	 recall : 0.749|0.812|0.774 	 loss : 0.0006 	[==============================]
+Finished epoch 9
+Time spent : 603.6843
+Train F1 : 0.77
+-Train F1 : 0.769|0.839|0.792 	 precision : 0.814|0.879|0.830 	 recall : 0.757|0.831|0.773 	 loss : 0.0015 	[==============================]
+Finished epoch 10
+Time spent : 603.6437
+Train F1 : 0.78
+	[==============================]
+	[==============================]
+Couldn't re-order the score matrix..
+	score     ap   madc   madr   ospa  prec(0)  prec(0.5)  prec(0.9)  rec(0)  rec(0.5)  rec(0.9)    scp
+	test   0.514  0.316  0.125  0.399    0.893      0.860      0.542   0.572     0.550     0.345  0.537
+	train  0.685  0.326  0.127  0.317    0.939      0.912      0.507   0.697     0.676     0.373  0.481
+	valid  0.556  0.311  0.117  0.406    0.951      0.909      0.558   0.539     0.515     0.317  0.549
+CV fold 2
+-Train F1 : 0.519|0.569|0.656 	 precision : 0.550|0.611|0.758 	 recall : 0.529|0.568|0.652 	 loss : 0.0018 	[==============================]
+Finished epoch 1
+Time spent : 552.4367
+Train F1 : 0.53
+-Train F1 : 0.627|0.605|0.713 	 precision : 0.679|0.680|0.733 	 recall : 0.632|0.608|0.703 	 loss : 0.0015 	[==============================]
+Finished epoch 2
+Time spent : 587.0332
+Train F1 : 0.65
+-Train F1 : 0.670|0.624|0.842 	 precision : 0.726|0.699|0.913 	 recall : 0.670|0.623|0.821 	 loss : 0.0014 	[==============================]
+Finished epoch 3
+Time spent : 595.0180
+Train F1 : 0.69
+-Train F1 : 0.699|0.669|0.903 	 precision : 0.750|0.698|0.902 	 recall : 0.696|0.670|0.909 	 loss : 0.0011 	[==============================]
+Finished epoch 4
+Time spent : 598.4529
+Train F1 : 0.72
+-Train F1 : 0.717|0.636|0.915 	 precision : 0.766|0.689|0.928 	 recall : 0.713|0.633|0.918 	 loss : 0.0010 	[==============================]
+Finished epoch 5
+Time spent : 600.0196
+Train F1 : 0.73
+-Train F1 : 0.735|0.721|0.633 	 precision : 0.779|0.747|0.626 	 recall : 0.729|0.724|0.643 	 loss : 0.0035 	[==============================]
+Finished epoch 6
+Time spent : 600.0119
+Train F1 : 0.75
+-Train F1 : 0.746|0.778|0.932 	 precision : 0.790|0.806|0.927 	 recall : 0.740|0.781|0.947 	 loss : 0.0005 	[==============================]
+Finished epoch 7
+Time spent : 601.1340
+Train F1 : 0.76
+-Train F1 : 0.750|0.774|0.914 	 precision : 0.793|0.819|0.938 	 recall : 0.743|0.763|0.912 	 loss : 0.0007 	[==============================]
+Finished epoch 8
+Time spent : 602.1673
+Train F1 : 0.76
+-Train F1 : 0.786|0.769|0.838 	 precision : 0.823|0.796|0.835 	 recall : 0.777|0.770|0.845 	 loss : 0.0007 	[==============================]
+Finished epoch 9
+Time spent : 603.1149
+Train F1 : 0.80
+-Train F1 : 0.795|0.764|0.731 	 precision : 0.831|0.802|0.730 	 recall : 0.787|0.765|0.737 	 loss : 0.0007 	[==============================]
+Finished epoch 10
+Time spent : 602.9933
+Train F1 : 0.80
+	[==============================]
+	[==============================]
+Couldn't re-order the score matrix..
+	score     ap   madc   madr   ospa  prec(0)  prec(0.5)  prec(0.9)  rec(0)  rec(0.5)  rec(0.9)    scp
+	test   0.522  0.375  0.161  0.433    0.630      0.590      0.329   0.730     0.683     0.379  0.560
+	train  0.815  0.328  0.128  0.253    0.834      0.824      0.526   0.844     0.832     0.530  0.405
+	valid  0.679  0.409  0.165  0.376    0.664      0.646      0.338   0.825     0.803     0.417  0.517
+----------------------------
+Mean CV scores
+----------------------------
+Couldn't re-order the score matrix..
+	score              ap            madc            madr            ospa         prec(0)       prec(0.5)       prec(0.9)          rec(0)        rec(0.5)  \
+	test    0.51 ± 0.0114  0.336 ± 0.0273  0.143 ± 0.0149   0.41 ± 0.0166  0.805 ± 0.1239  0.764 ± 0.1235   0.449 ± 0.089  0.631 ± 0.0703  0.597 ± 0.0609   
+	train  0.745 ± 0.0535  0.331 ± 0.0052  0.126 ± 0.0018  0.275 ± 0.0292  0.911 ± 0.0552  0.895 ± 0.0528  0.551 ± 0.0496  0.761 ± 0.0616  0.746 ± 0.0647   
+	valid  0.608 ± 0.0523  0.335 ± 0.0534   0.123 ± 0.032  0.365 ± 0.0392  0.859 ± 0.1377  0.835 ± 0.1349  0.546 ± 0.1647   0.657 ± 0.122  0.639 ± 0.1211   
+----------------------------
+Bagged scores
+----------------------------
+Couldn't re-order the score matrix..
+	score   ospa
+	test   0.397
+	valid  0.312
